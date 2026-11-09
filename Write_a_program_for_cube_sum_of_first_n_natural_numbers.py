@@ -10,4 +10,5 @@ n = int(input("Enter the value of n: "))
 if n <= 0:
   print("Please enter the positive integer.")
 else:
+  result = cube_sum_of_natural_numbers(n)
   print(f"The cube sum of the first {n} natural number is: {result}")
