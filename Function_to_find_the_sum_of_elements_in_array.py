@@ -5,6 +5,6 @@ def sum_of_array(arr):
         total += element
     return total
 
-array = array = list(map(int, input("Enter the array elements separated by space: ").split()))
+array = list(map(int, input("Enter the array elements separated by space: ").split()))
 result = sum_of_array(array)
 print("Sum of array:", result)
